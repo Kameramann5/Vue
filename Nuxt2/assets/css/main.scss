@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 100%;
+}
+div {
+  line-height: 100%;
+}
+/* Заголовки */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  line-height: 100%;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+/* Параграфы */
+p {
+}
+
+/* Ссылки */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+}
+
+.container {
+  width: 1756px;
+  margin: 0 auto;
+}
+
+/* Медиазапросы для адаптивности */
+@media (max-width: 1000px) {
+  .container {
+    padding: 0 16px;
+    width: auto;
+  }
+}
